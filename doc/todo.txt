@@ -1,0 +1,60 @@
+To Do + some advices and links to manuals
+
+To Do (current)
+=====
+	-Create repo. -> DONE
+	-Read about development for Sailfish OS
+		HELP:
+			https://sailfishos.org/develop/
+			(read all)
+			https://udmlug.wordpress.com/2015/03/26/developing-for-sailfish-vk-example/
+			https://sailfishos.org/develop/sdk-overview/develop-firstapp-article/
+		-Install Sailfish OS SDK
+			HELP:
+				https://sailfishos.org/develop/sdk-overview/develop-installation-article/
+	-Think about architecture of app
+	-Create documentation about how to develop for Sailfish OS (Github wiki (?))
+		For example: Write about system calls and functions etc.
+	-Port all tasks to Github issues
+	-Write todo at greater length!
+	-Read about languages for development (C++, QML, Python...)
+
+To Do (for realese)
+=====
+	-Read about how to app in Jolla market (called Harbour)
+	-Create flattr account
+	-Choose license for app
+	-Make app icon
+
+To Do (additional)
+=====
+	-Write review for Jolla phone and Sailfish OS
+
+
+--------------------------------------------------------
+
+What is Sailfish OS:
+
+https://en.wikipedia.org/wiki/Sailfish_OS
+https://ru.wikipedia.org/wiki/Sailfish_OS
+
+
+
+Additional good links about development for Sailfish OS:
+
+http://www.youtube.com/watch?v=z3hMGNwObx8
+http://www.youtube.com/watch?v=CiWqSIyqqAc
+http://stackoverflow.com/questions/18703799/sailfish-os-app-development-for-beginners
+
+
+
+!!!
+You can see repo of Kat (VK client for Sailfish OS), which is developed of russian developers:
+
+https://github.com/osanwe/Kat
+
+
+
+__For developers:__
+ + _master_ branch is for releases
+ + _dev_ branch is for bug fixes
