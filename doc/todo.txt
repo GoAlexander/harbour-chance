@@ -2,34 +2,39 @@ To Do + some advices and links to manuals
 
 To Do (current)
 =====
-	-Create repo. -> DONE
-	-Read about development for Sailfish OS
+	[x]Create repo. -> DONE
+	[]Read about development for Sailfish OS
 		HELP:
 			https://sailfishos.org/develop/
 			(read all)
 			https://udmlug.wordpress.com/2015/03/26/developing-for-sailfish-vk-example/
 			https://sailfishos.org/develop/sdk-overview/develop-firstapp-article/
-		-Install Sailfish OS SDK
+		[]Install Sailfish OS SDK
 			HELP:
 				https://sailfishos.org/develop/sdk-overview/develop-installation-article/
-	-Think about architecture of app
-	-Create documentation about how to develop for Sailfish OS (Github wiki (?))
+			[]Describe some installing troubles(!!!)
+	[]Think about architecture of app
+	[]Create documentation about how to develop for Sailfish OS (Github wiki (?))
 		For example: Write about system calls and functions etc.
-	-Port all tasks to Github issues
-	-Write todo at greater length!
-	-Read about languages for development (C++, QML, Python...)
+		[]Documentation for app(?)
+	[]Port all tasks to Github issues
+	[]Write todo at greater length!
+	[]Read about languages for development (C++, QML, Python...)
 
 To Do (for realese)
 =====
-	-Read about how to app in Jolla market (called Harbour)
-	-Create flattr account
-	-Choose license for app
-	-Make app icon
+	[]Read about how to app in Jolla market (called Harbour)
+	[]Create flattr account
+	[]Choose license for app
+	[]Make app icon
 
 To Do (additional)
 =====
-	-Write review for Jolla phone and Sailfish OS
+	[]Write review for Jolla phone and Sailfish OS
 
+External ideas:
+===============
+	[]К примеру люди играют в мафию, кто будет ведущим? (и "выскакивает" число от 1 до 10) // idea of Makson52
 
 --------------------------------------------------------
 
