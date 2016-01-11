@@ -3,27 +3,24 @@ To Do + some advices and links to manuals
 To Do (current)
 =====
 	[x]Create repo. -> DONE
-	[]Read about development for Sailfish OS
+	[x]Read about development for Sailfish OS
 		HELP:
 			https://sailfishos.org/develop/
 			(read all)
 			https://udmlug.wordpress.com/2015/03/26/developing-for-sailfish-vk-example/
 			https://sailfishos.org/develop/sdk-overview/develop-firstapp-article/
-		[]Install Sailfish OS SDK
+		[x]Install Sailfish OS SDK
 			HELP:
 				https://sailfishos.org/develop/sdk-overview/develop-installation-article/
 			[]Describe some installing troubles(!!!)
-	[]Think about architecture of app
+	[x]Think about architecture of app
 	[]Create documentation about how to develop for Sailfish OS (Github wiki (?))
 		For example: Write about system calls and functions etc.
 		[]Documentation for app(?)
-	[]Port all tasks to Github issues
-	[]Write todo at greater length!
-	[]Read about languages for development (C++, QML, Python...)
 
 To Do (for realese)
 =====
-	[]Read about how to app in Jolla market (called Harbour)
+	[]Read about how to share app in Jolla market (called Harbour)
 	[]Create flattr account
 	[]Choose license for app
 	[]Make app icon
