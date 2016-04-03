@@ -5,6 +5,7 @@ import Sailfish.Silica 1.0
 
 Page {
     id: page
+    property int decison //delete??
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
@@ -31,38 +32,48 @@ Page {
             PageHeader {
                 title: qsTr("Chance.")
             }
+            /*
             Label {
+                id: decison
                 x: Theme.paddingLarge
-                text: qsTr("КНОПКА, ТЕСТ")
+                text: qsTr("")
                 color: Theme.secondaryHighlightColor
                 font.pixelSize: Theme.fontSizeExtraLarge
+            }*/
+            Text {
+                id: output
+                width: parent.width
+                color: Theme.secondaryColor
+                font.bold: true
+                wrapMode: Text.Wrap
+                EnterKey.onClicked: makeDecision();
             }
 
-            /*
-            Image //неправильно, нужен "action"
-            {
-                anchors { horizontalCenter: parent.horizontalCenter }
-                source: "image://theme/icon-l-new"
-            }
-            */
-            //попробовать для теста взять
-            //test
+            Button {
+                id: convertButton
+                text: qsTr("Make decision!")
+                anchors.horizontalCenter: parent.horizontalCenter
 
-            IconButton //TODO сделать больше
-            {
-                anchors { horizontalCenter: parent.horizontalCenter }
-                icon.source: "image://theme/icon-l-new"
-                //visible: graph.dayOffset > 0
-                onClicked:
-                {
-                    //--graph.dayOffset;
-                    //graph.refresh();
+                onClicked: {
+                    //output.text = "Decision:  " + "test";
+                    //makeDecision();
+                    //output.text = "Decision:  " + Math.ceil(Math.random() *2); //javascript?! // maybe impleent c++?
+                    //column.decision = Math.ceil(Math.random() *2);
+                    if (Math.ceil(Math.random() *2) === 1) {
+                        output.text = "Decision:  " + "yes";
+                    } else {
+                        output.text = "Decision:  " + "no";
+                    }
                 }
-
             }
 
         }
+        //why don t work?
+
+        function makeDecision() {
+            //output.text = "Decision:  " + Math.ceil(Math.random() *5);
+
+        }
+
     }
 }
-
-
