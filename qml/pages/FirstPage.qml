@@ -1,11 +1,14 @@
-
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 
 Page {
     id: page
-    property int decison //delete??
+    allowedOrientations: Orientation.All
+
+    function makeDecision() {
+        return Math.ceil(Math.random() *2);
+    }
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
@@ -32,17 +35,11 @@ Page {
             PageHeader {
                 title: qsTr("Chance.")
             }
-            /*
-            Label {
-                id: decison
-                x: Theme.paddingLarge
-                text: qsTr("")
-                color: Theme.secondaryHighlightColor
-                font.pixelSize: Theme.fontSizeExtraLarge
-            }*/
+
             Text {
                 id: output
                 width: parent.width
+                horizontalAlignment: Text.Center
                 color: Theme.secondaryColor
                 font.bold: true
                 wrapMode: Text.Wrap
@@ -51,29 +48,17 @@ Page {
 
             Button {
                 id: convertButton
-                text: qsTr("Make decision!")
+                text: qsTr("Randomize!")
                 anchors.horizontalCenter: parent.horizontalCenter
 
                 onClicked: {
-                    //output.text = "Decision:  " + "test";
-                    //makeDecision();
-                    //output.text = "Decision:  " + Math.ceil(Math.random() *2); //javascript?! // maybe impleent c++?
-                    //column.decision = Math.ceil(Math.random() *2);
-                    if (Math.ceil(Math.random() *2) === 1) {
-                        output.text = "Decision:  " + "yes";
+                    if (makeDecision() === 1) {
+                        output.text = "Yes!";
                     } else {
-                        output.text = "Decision:  " + "no";
+                        output.text = "No!";
                     }
                 }
             }
-
         }
-        //why don t work?
-
-        function makeDecision() {
-            //output.text = "Decision:  " + Math.ceil(Math.random() *5);
-
-        }
-
     }
 }
