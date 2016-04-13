@@ -9,7 +9,7 @@ Read doc/todo.txt! You can find there todo, information and some good links :)
 License
 -------
 
-    Copyright (c) 2015 Alexander Dydychkin
+    Copyright (c) 2016 Alexander Dydychkin
 
     Chance. is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
