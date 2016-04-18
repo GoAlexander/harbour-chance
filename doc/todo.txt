@@ -15,19 +15,16 @@ To Do (current)
 			[]Describe some installing troubles(!!!)
 	[x]Think about architecture of app
 	[]Create documentation about how to develop for Sailfish OS (Github wiki (?))
-		For example: Write about system calls and functions etc.
-		[]Documentation for app(?)
 
 To Do (for realese)
 =====
-	[]Read about how to share app in Jolla market (called Harbour)
-	[]Create flattr account
-	[]Choose license for app
-	[]Make app icon
+	[x]Read about how to share app in Jolla market (called Harbour)
+	[x]Choose license for app
+	[x]Make app icon
 
 To Do (additional)
 =====
-	[]Write review for Jolla phone and Sailfish OS
+	[x]Write review for Jolla phone and Sailfish OS
 
 External ideas:
 ===============
@@ -48,15 +45,3 @@ http://www.youtube.com/watch?v=z3hMGNwObx8
 http://www.youtube.com/watch?v=CiWqSIyqqAc
 http://stackoverflow.com/questions/18703799/sailfish-os-app-development-for-beginners
 
-
-
-!!!
-You can see repo of Kat (VK client for Sailfish OS), which is developed of russian developers:
-
-https://github.com/osanwe/Kat
-
-
-
-__For developers:__
- + _master_ branch is for releases
- + _dev_ branch is for bug fixes

@@ -12,8 +12,8 @@ Name:       harbour-chance
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
-Summary:    My SailfishOS Application
-Version:    0.1
+Summary:    Chance helps to make decision (with help of random :))
+Version:    1.0
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE

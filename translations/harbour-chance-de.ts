@@ -12,11 +12,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Write about LICENSE...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Flattr link :)</source>
+        <source>License: GPLv3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -46,22 +42,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source></source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Randomize!</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SecondPage</name>
-    <message>
-        <source>Nested Page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Item</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

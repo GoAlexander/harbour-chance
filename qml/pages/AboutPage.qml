@@ -5,28 +5,16 @@ import Sailfish.Silica 1.0
 Page {
     id: aboutPage
 
-    Column { //test
+    Column {
         id: column
         spacing: 5
         width: parent.width
 
-        /*
-        Label {
-            anchors { horizontalCenter: parent.horizontalCenter }
-            x: Theme.paddingLarge
-            text: qsTr("ТЕСТ1\nТЕСТ")
-            color: Theme.secondaryHighlightColor
-            font.pixelSize: Theme.fontSizeExtraLarge
-        }
-        */
-
-        //TODO удалить лишнее и сделать разметку по подобию firstPage
         PageHeader {
             title: qsTr("Chance.")
         }
 
-
-        Text //test
+        Text
         {
             id: titleLabel
             anchors { horizontalCenter: parent.horizontalCenter }
@@ -39,15 +27,12 @@ Page {
             text: "<style>a:link { color: " + Theme.highlightColor + "; }</style><br/>" +
             qsTr("This program answers you yes/no if you can`t make a decision. ;)") + 
             "<br/>" + 
-            qsTr("Write about LICENSE...") +
-            "<br/>" + 
-            qsTr("Flattr link :)") +
+            qsTr("License: GPLv3") +
             "<br/><br/>" + qsTr("You can find the source code at the:") +
             "<br/> <a href=\"https://github.com/GoAlexander/harbour-chance\">" + 
             qsTr("GitHub") + "</a>";
             onLinkActivated:
             {
-                //Qt.openUrlExternally(link); //is it right?
                 Qt.openUrlExternally("https://github.com/GoAlexander/harbour-chance");
             }
         }

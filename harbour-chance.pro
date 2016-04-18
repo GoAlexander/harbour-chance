@@ -19,6 +19,7 @@ SOURCES += src/harbour-chance.cpp
 OTHER_FILES += qml/harbour-chance.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
+    qml/pages/SecondPage.qml \
     rpm/harbour-chance.changes.in \
     rpm/harbour-chance.spec \
     rpm/harbour-chance.yaml \
