@@ -39,5 +39,5 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS += translations/harbour-chance-de.ts
 
 DISTFILES += \
-    qml/pages/AboutPage.qml
-
+    qml/pages/AboutPage.qml \
+    qml/pages/ShakeSensor.qml

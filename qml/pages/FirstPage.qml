@@ -1,5 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import QtSensors 5.0
 
 
 Page {
@@ -7,7 +8,8 @@ Page {
     allowedOrientations: Orientation.All
 
     function makeDecision() {
-        return Math.ceil(Math.random() *2);
+        //return Math.ceil(Math.random() *2);
+        return Math.ceil(shakeSensor.random * 1000) % 2;
     }
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
@@ -46,19 +48,58 @@ Page {
                 EnterKey.onClicked: makeDecision();
             }
 
-            Button {
+            Label {
                 id: convertButton
-                text: qsTr("Randomize!")
+                text: qsTr("Shake for answer!")
                 anchors.horizontalCenter: parent.horizontalCenter
 
-                onClicked: {
+                /*onClicked: {
                     if (makeDecision() === 1) {
                         output.text = "Yes!";
                     } else {
                         output.text = "No!";
                     }
+                }*/
+            }
+        }
+    }
+
+    ShakeSensor {
+        id: shakeSensor
+
+        property real random: 0
+        property real count: 0
+
+        active: true
+
+        onShaked: {
+            // console.log("-- -- -- x:" + reading.x + ";\t y: " + reading.y + ";\t z: "+ reading.z);
+            if (count == 0) {
+                output.text = "";
+            }
+
+            count += 1;
+            random += Math.abs(reading.x) + Math.abs(reading.y) + Math.abs(reading.y);
+            if (random > 1000) {
+                random -= 1000;
+            }
+            shakeTimeout.restart();
+        }
+    }
+    Timer {
+        id: shakeTimeout
+        interval: 1200
+        repeat: false
+        onTriggered: {
+            // console.log("makeDecision", shakeSensor.count, shakeSensor.random);
+            if (shakeSensor.count >= 2) {
+                if (makeDecision() === 1) {
+                    output.text = "Yes!";
+                } else {
+                    output.text = "No!";
                 }
             }
+            shakeSensor.count = 0;
         }
     }
 }
