@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>License: GPLv3</source>
-        <translationLicense : GPLv3</translation>
+        <translation>License : GPLv3</translation>
     </message>
     <message>
         <source>You can find the source code at the:</source>
