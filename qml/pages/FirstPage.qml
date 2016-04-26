@@ -7,9 +7,15 @@ Page {
     id: page
     allowedOrientations: Orientation.All
 
-    function makeDecision() {
+    function answer() {
+        var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
+                "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
+                "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.",
+                "Don’t count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
+
         //return Math.ceil(Math.random() *2);
-        return Math.ceil(shakeSensor.random * 1000) % 2;
+        //return Math.ceil(shakeSensor.random * 1000) % 2;
+        return answers [Math.ceil(shakeSensor.random * 1000) % 20]; //TODO Is it right? I mean probability is correct?!
     }
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
@@ -45,7 +51,7 @@ Page {
                 color: Theme.secondaryColor
                 font.bold: true
                 wrapMode: Text.Wrap
-                EnterKey.onClicked: makeDecision();
+                EnterKey.onClicked: answer();
             }
 
             Label {
@@ -54,7 +60,7 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
 
                 /*onClicked: {
-                    if (makeDecision() === 1) {
+                    if (answer() === 1) {
                         output.text = "Yes!";
                     } else {
                         output.text = "No!";
@@ -91,15 +97,30 @@ Page {
         interval: 1200
         repeat: false
         onTriggered: {
-            // console.log("makeDecision", shakeSensor.count, shakeSensor.random);
+            // console.log("answer", shakeSensor.count, shakeSensor.random);
             if (shakeSensor.count >= 2) {
-                if (makeDecision() === 1) {
+                /*
+                if (answer() === 1) {
                     output.text = "Yes!";
                 } else {
                     output.text = "No!";
                 }
+                */
+                output.text = answer();
             }
             shakeSensor.count = 0;
         }
     }
+
+    /*
+    IconButton {
+        id: magicBall
+        width: parent.width
+        icon.source: "./magic-ball.png"
+        //icon.source: "$PROJECT/icons/256x256/harbour-chance.png"
+        //icon.source: "../icons/256x256/harbour-chance.png"
+        //icon.source: "image://theme/icon-l-play"
+        onClicked: output.text = answer();
+    }
+    */
 }

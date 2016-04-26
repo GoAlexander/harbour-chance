@@ -8,10 +8,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This program answers you yes/no if you can`t make a decision. ;)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>License: GPLv3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -21,6 +17,10 @@
     </message>
     <message>
         <source>GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This program evolved to 8-ball. So, &quot;Chance.&quot; answers you with classical magic ball expressions. ;)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -42,7 +42,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Randomize!</source>
+        <source>Shake for answer!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

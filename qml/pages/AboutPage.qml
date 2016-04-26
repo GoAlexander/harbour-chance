@@ -25,7 +25,7 @@ Page {
             font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
             color: Theme.secondaryColor
             text: "<style>a:link { color: " + Theme.highlightColor + "; }</style><br/>" +
-            qsTr("This program answers you yes/no if you can`t make a decision. ;)") + 
+            qsTr("This program evolved to 8-ball. So, \"Chance.\" answers you with classical magic ball expressions. ;)") +
             "<br/>" + 
             qsTr("License: GPLv3") +
             "<br/><br/>" + qsTr("You can find the source code at the:") +

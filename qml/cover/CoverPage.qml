@@ -3,9 +3,24 @@ import Sailfish.Silica 1.0
 
 CoverBackground {
 
+
     function makeDecision() {
         return Math.ceil(Math.random() *2);
+    } 
+
+    /*
+    function answer() {
+        var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
+                "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
+                "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.",
+                "Don’t count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
+
+        //return Math.ceil(Math.random() *2);
+        //return Math.ceil(shakeSensor.random * 1000) % 2;
+        return answers [Math.ceil(shakeSensor.random * 1000) % 20]; //TODO Is it right? I mean probability is correct?!
     }
+    */
+
 
     Label {
         id: label
@@ -22,11 +37,14 @@ CoverBackground {
             iconSource: "image://theme/icon-cover-refresh"
 
             onTriggered: {
+
                 if (makeDecision() === 1) {
                     label.text = "Yes!";
                 } else {
                     label.text = "No!";
                 }
+
+                //label.text = answer();
             }
         }
     }

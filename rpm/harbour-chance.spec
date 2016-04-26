@@ -13,7 +13,7 @@ Name:       harbour-chance
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Chance helps to make decision (with help of random :))
-Version:    1.0
+Version:    1.1
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE
