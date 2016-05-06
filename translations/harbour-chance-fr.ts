@@ -8,20 +8,20 @@
         <translation>Chance.</translation>
     </message>
     <message>
-        <source>This program answers you yes/no if you can`t make a decision. ;)</source>
-        <translation>Ce programme vous répond oui/non si vous ne pouvez pas vous décider. ;)</translation>
-    </message>
-    <message>
         <source>License: GPLv3</source>
-        <translation>License : GPLv3</translation>
+        <translation>Licence : GPLv3</translation>
     </message>
     <message>
         <source>You can find the source code at the:</source>
-        <translation>Vous pouvez récupérer le code source ici : </translation>
+        <translation>Vous pouvez retrouver le code source sur :</translation>
     </message>
     <message>
         <source>GitHub</source>
         <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>This program evolved to 8-ball. So, &quot;Chance.&quot; answers you with classical magic ball expressions. ;)</source>
+        <translation>Ce programme est inspiré de la 8-ball. Ainsi, &quot;Chance.&quot; vous répond avec les fameuses expressions de la boule magique. ;)</translation>
     </message>
 </context>
 <context>
@@ -42,8 +42,8 @@
         <translation>Chance.</translation>
     </message>
     <message>
-        <source>Randomize!</source>
-        <translation>Au hasard !</translation>
+        <source>Shake for answer!</source>
+        <translation>Secouez et lisez !</translation>
     </message>
 </context>
 </TS>
