@@ -42,7 +42,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Shake for answer!</source>
+        <source>Go</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click or shake!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

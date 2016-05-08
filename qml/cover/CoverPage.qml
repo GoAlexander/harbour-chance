@@ -8,18 +8,14 @@ CoverBackground {
         return Math.ceil(Math.random() *2);
     } 
 
-    /*
-    function answer() {
+    function buttonAnswer() {
         var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
                 "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
                 "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.",
                 "Don’t count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
 
-        //return Math.ceil(Math.random() *2);
-        //return Math.ceil(shakeSensor.random * 1000) % 2;
-        return answers [Math.ceil(shakeSensor.random * 1000) % 20]; //TODO Is it right? I mean probability is correct?!
+        return answers [Math.ceil(Math.random() * 20)];
     }
-    */
 
 
     Label {
@@ -27,7 +23,8 @@ CoverBackground {
         anchors.centerIn: parent
         font.bold: true
         text: qsTr("Chance.")
-        EnterKey.onClicked: makeDecision();
+        EnterKey.onClicked: answer();
+        //EnterKey.onClicked: buttonAnswer();
     }
 
     CoverActionList {
@@ -44,7 +41,7 @@ CoverBackground {
                     label.text = "No!";
                 }
 
-                //label.text = answer();
+                //label.text = buttonAnswer(); // some answers are out of cover!
             }
         }
     }

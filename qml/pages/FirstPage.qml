@@ -7,6 +7,7 @@ Page {
     id: page
     allowedOrientations: Orientation.All
 
+    property real flag: 0
     function answer() {
         var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
                 "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
@@ -15,7 +16,16 @@ Page {
 
         //return Math.ceil(Math.random() *2);
         //return Math.ceil(shakeSensor.random * 1000) % 2;
-        return answers [Math.ceil(shakeSensor.random * 1000) % 20]; //TODO Is it right? I mean probability is correct?!
+        return answers [Math.ceil(shakeSensor.random * 1000) % 20];
+    }
+
+    function buttonAnswer() {
+        var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
+                "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
+                "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.",
+                "Don’t count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
+
+        return answers [Math.ceil(Math.random() * 20)];
     }
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
@@ -44,6 +54,7 @@ Page {
                 title: qsTr("Chance.")
             }
 
+
             Text {
                 id: output
                 width: parent.width
@@ -51,22 +62,27 @@ Page {
                 color: Theme.secondaryColor
                 font.bold: true
                 wrapMode: Text.Wrap
+                font.pixelSize: Theme.fontSizeExtraLarge
                 EnterKey.onClicked: answer();
+                //EnterKey.onClicked: buttonAnswer();
+            }
+
+
+            Button {
+                id: convertButton
+                text: qsTr("Go")
+                anchors.horizontalCenter: parent.horizontalCenter
+                onClicked: {
+                    output.text = buttonAnswer();
+                }
             }
 
             Label {
-                id: convertButton
-                text: qsTr("Shake for answer!")
+                id: label
+                text: qsTr("Click or shake!")
                 anchors.horizontalCenter: parent.horizontalCenter
-
-                /*onClicked: {
-                    if (answer() === 1) {
-                        output.text = "Yes!";
-                    } else {
-                        output.text = "No!";
-                    }
-                }*/
-            }
+                font.pixelSize: Theme.fontSizeExtraSmall
+            }   
         }
     }
 
@@ -94,18 +110,11 @@ Page {
     }
     Timer {
         id: shakeTimeout
-        interval: 1200
+        interval: 600 //1200
         repeat: false
         onTriggered: {
             // console.log("answer", shakeSensor.count, shakeSensor.random);
             if (shakeSensor.count >= 2) {
-                /*
-                if (answer() === 1) {
-                    output.text = "Yes!";
-                } else {
-                    output.text = "No!";
-                }
-                */
                 output.text = answer();
             }
             shakeSensor.count = 0;

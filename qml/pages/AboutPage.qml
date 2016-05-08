@@ -35,6 +35,7 @@ Page {
             {
                 Qt.openUrlExternally("https://github.com/GoAlexander/harbour-chance");
             }
+
         }
     }
 
