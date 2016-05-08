@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Go</source>
-        <translation type="unfinished"></translation>
+        <translation>Aller</translation>
     </message>
     <message>
         <source>Click or shake!</source>
-        <translation type="unfinished"></translation>
+        <translation>Cliquez ou secouer!</translation>
     </message>
 </context>
 </TS>
