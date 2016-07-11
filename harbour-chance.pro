@@ -39,7 +39,8 @@ CONFIG += sailfishapp_i18n
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
 TRANSLATIONS += translations/harbour-chance-de.ts \
-    translations/harbour-chance-fr.ts
+    translations/harbour-chance-fr.ts \
+	translations/harbour-chance-it.ts
 
 DISTFILES += \
     qml/pages/AboutPage.qml \
