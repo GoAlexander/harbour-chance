@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>This program evolved to 8-ball. So, &quot;Chance.&quot; answers you with classical magic ball expressions. ;)</source>
-        <translation>Questo programma si è evoluto in 8-ball. Quindi, &quot;Chance.&quot; risponde con le tipiche espressione della palla magica. ;)</translation>
+        <translation>Questo programma si è evoluto in 8-ball. Quindi, &quot;Chance.&quot; risponde con le tipiche espressioni della palla magica. ;)</translation>
     </message>
 </context>
 <context>
