@@ -7,16 +7,15 @@ Page {
     id: page
     allowedOrientations: Orientation.All
 
-    property real flag: 0
+    property real number: 0
     function answer() {
         var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
                 "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
                 "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.",
                 "Don’t count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
 
-        //return Math.ceil(Math.random() *2);
-        //return Math.ceil(shakeSensor.random * 1000) % 2;
-        return answers [Math.ceil(shakeSensor.random * 1000) % 20];
+        number = Math.ceil(shakeSensor.random * 1000) % 20;
+        return answers [number];
     }
 
     function buttonAnswer() {
@@ -25,7 +24,23 @@ Page {
                 "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.",
                 "Don’t count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
 
-        return answers [Math.ceil(Math.random() * 20)];
+        number =  Math.ceil(Math.random() * 20);
+        return answers [number];
+    }
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function randEmoji(number) {
+        if (number >= 0 && number <= 9)
+            return getRandomInt(0, 2);
+        else
+            if (number >= 10 && number <= 14)
+                return getRandomInt(3, 5);
+            else
+                if (number >= 15 && number <= 19)
+                    return getRandomInt(6, 7);
     }
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
@@ -54,7 +69,6 @@ Page {
                 title: qsTr("Chance.")
             }
 
-
             Text {
                 id: output
                 width: parent.width
@@ -66,7 +80,6 @@ Page {
                 EnterKey.onClicked: answer();
                 //EnterKey.onClicked: buttonAnswer();
             }
-
 
             Button {
                 id: convertButton
@@ -82,7 +95,15 @@ Page {
                 text: qsTr("Click or shake!")
                 anchors.horizontalCenter: parent.horizontalCenter
                 font.pixelSize: Theme.fontSizeExtraSmall
-            }   
+            }
+
+            Image {
+                    id: emoji
+                    source: "../emojis/emoji-" + randEmoji(number) + ".png"
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    width: parent.width
+                    height: sourceSize.height * width / sourceSize.width
+            }
         }
     }
 
@@ -121,15 +142,4 @@ Page {
         }
     }
 
-    /*
-    IconButton {
-        id: magicBall
-        width: parent.width
-        icon.source: "./magic-ball.png"
-        //icon.source: "$PROJECT/icons/256x256/harbour-chance.png"
-        //icon.source: "../icons/256x256/harbour-chance.png"
-        //icon.source: "image://theme/icon-l-play"
-        onClicked: output.text = answer();
-    }
-    */
 }

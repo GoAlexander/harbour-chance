@@ -24,8 +24,8 @@ OTHER_FILES += qml/harbour-chance.qml \
     rpm/harbour-chance.spec \
     rpm/harbour-chance.yaml \
     translations/*.ts \
-    harbour-chance.desktop
-    #images/* \
+    harbour-chance.desktop \
+    emojis/*
     #qml/pages/magic-ball.png
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
