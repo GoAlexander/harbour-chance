@@ -8,6 +8,7 @@ CoverBackground {
         return Math.ceil(Math.random() *2);
     } 
 
+    /*
     function buttonAnswer() {
         var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
                 "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
@@ -16,6 +17,7 @@ CoverBackground {
 
         return answers [Math.ceil(Math.random() * 20)];
     }
+    */
 
 
     Label {
