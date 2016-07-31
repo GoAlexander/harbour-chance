@@ -83,6 +83,15 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
 
+        //It listens tap on the screen
+        MouseArea {
+            anchors.fill: parent
+            onClicked: {
+                console.log("It works!");
+                output.text = buttonAnswer();
+            }
+        }
+
         // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
         PullDownMenu {
             MenuItem {
@@ -94,8 +103,6 @@ Page {
         // Tell SilicaFlickable the height of its content.
         contentHeight: column.height
 
-        // Place our content in a Column.  The PageHeader is always placed at the top
-        // of the page, followed by our content.
         Column {
             id: column
 
@@ -109,7 +116,7 @@ Page {
                 id: output
                 width: parent.width
                 horizontalAlignment: Text.Center
-                color: Theme.secondaryColor
+                color: Theme.highlightColor
                 font.bold: true
                 wrapMode: Text.Wrap
                 font.pixelSize: Theme.fontSizeExtraLarge
@@ -117,17 +124,9 @@ Page {
                 //EnterKey.onClicked: buttonAnswer();
             }
 
-            Button {
-                id: convertButton
-                text: qsTr("Go")
-                anchors.horizontalCenter: parent.horizontalCenter
-                onClicked: {
-                    output.text = buttonAnswer();
-                }
-            }
-
             Label {
                 id: label
+                color: Theme.highlightColor
                 text: qsTr("Click or shake!")
                 anchors.horizontalCenter: parent.horizontalCenter
                 font.pixelSize: Theme.fontSizeExtraSmall

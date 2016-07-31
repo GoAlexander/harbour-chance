@@ -23,7 +23,7 @@ Page {
             horizontalAlignment: Text.AlignHCenter
             textFormat: Text.RichText
             font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
-            color: Theme.secondaryColor
+            color: Theme.highlightColor
             text: "<style>a:link { color: " + Theme.highlightColor + "; }</style><br/>" +
             qsTr("This program evolved to 8-ball. So, \"Chance.\" answers you with classical magic ball expressions. ;)") +
             "<br/>" + 

@@ -20,13 +20,15 @@ CoverBackground {
     */
 
 
+
     Label {
         id: label
         anchors.centerIn: parent
         font.bold: true
+        color: Theme.highlightColor
         text: qsTr("Chance.")
-        EnterKey.onClicked: answer();
-        //EnterKey.onClicked: buttonAnswer();
+        //EnterKey.onClicked: answer();
+        EnterKey.onClicked: buttonAnswer();
     }
 
     CoverActionList {
@@ -38,9 +40,9 @@ CoverBackground {
             onTriggered: {
 
                 if (makeDecision() === 1) {
-                    label.text = "Yes!";
+                    label.text = qsTr("Yes!");
                 } else {
-                    label.text = "No!";
+                    label.text = qsTr("No!");
                 }
 
                 //label.text = buttonAnswer(); // some answers are out of cover!
