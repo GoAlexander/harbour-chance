@@ -61,4 +61,3 @@ Accelerometer {
         _lastZ = reading.z;
     }
 }
-

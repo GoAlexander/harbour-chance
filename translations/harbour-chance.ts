@@ -23,6 +23,22 @@
         <source>This program evolved to 8-ball. So, &quot;Chance.&quot; answers you with classical magic ball expressions. ;)</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Special thanks:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>-Quent-in for french translation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>-palikao for italian translation and cool emojis</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>-amilcarsantos for code of shaking</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
