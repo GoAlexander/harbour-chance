@@ -33,7 +33,7 @@ Page {
                 qsTr("GitHub") + "</a>" +
                 "<br/><br/>" + qsTr("Special thanks:") +
                 "<br/>" + qsTr("-Quent-in for french translation") +
-                "<br/>" + qsTr("-palikao for italian translation and cool emojis") +
+                "<br/>" + qsTr("-Stefano (aka palikao) for italian translation and cool emojis") +
                 "<br/>" + qsTr("-amilcarsantos for code of shaking");
 
             onLinkActivated:

@@ -32,11 +32,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>-palikao for italian translation and cool emojis</source>
+        <source>-amilcarsantos for code of shaking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>-amilcarsantos for code of shaking</source>
+        <source>-Stefano (aka palikao) for italian translation and cool emojis</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

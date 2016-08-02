@@ -32,12 +32,12 @@
         <translation>-Quent-in für die französische Übersetzung</translation>
     </message>
     <message>
-        <source>-palikao for italian translation and cool emojis</source>
-        <translation>-palikao für die italienische Übersetzung</translation>
-    </message>
-    <message>
         <source>-amilcarsantos for code of shaking</source>
         <translation>-amilcarsantos für den Code vom Schütteln</translation>
+    </message>
+    <message>
+        <source>-Stefano (aka palikao) for italian translation and cool emojis</source>
+        <translation>-Stefano (aka palikao) für die italienische Übersetzung und wunderbare Emojis</translation>
     </message>
 </context>
 <context>
