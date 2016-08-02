@@ -1,10 +1,5 @@
 # Chance.
 Program for Sailfish OS, which helps to make a decision (with help of random).
-
-
-Read doc/todo.txt! You can find there todo, information and some good links :)
-  
-  
   
 License
 -------
