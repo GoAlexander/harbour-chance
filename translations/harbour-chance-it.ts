@@ -25,19 +25,19 @@
     </message>
     <message>
         <source>Special thanks:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ringraziamenti speciali:</translation>
     </message>
     <message>
         <source>-Quent-in for french translation</source>
-        <translation type="unfinished"></translation>
+        <translation>-Quent-in per la traduzione francese</translation>
     </message>
     <message>
         <source>-palikao for italian translation and cool emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>-palikao per la traduzione italiana e le emoji</translation>
     </message>
     <message>
         <source>-amilcarsantos for code of shaking</source>
-        <translation type="unfinished"></translation>
+        <translation>-amilcarsantos per il codice dell'agitare</translation>
     </message>
 </context>
 <context>
@@ -48,11 +48,11 @@
     </message>
     <message>
         <source>Yes!</source>
-        <translation type="unfinished"></translation>
+        <translation>Sì!</translation>
     </message>
     <message>
         <source>No!</source>
-        <translation type="unfinished"></translation>
+        <translation>No!</translation>
     </message>
 </context>
 <context>
@@ -71,83 +71,83 @@
     </message>
     <message>
         <source>It is certain.</source>
-        <translation type="unfinished"></translation>
+        <translation>È certo</translation>
     </message>
     <message>
         <source>It is decidedly so.</source>
-        <translation type="unfinished"></translation>
+        <translation>È decisamente così</translation>
     </message>
     <message>
         <source>Without a doubt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Senza alcun dubbio</translation>
     </message>
     <message>
         <source>Yes — definitely.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sì — decisamente.</translation>
     </message>
     <message>
         <source>You may rely on it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ci puoi contare.</translation>
     </message>
     <message>
         <source>As I see it, yes.</source>
-        <translation type="unfinished"></translation>
+        <translation>A quanto pare, sì.</translation>
     </message>
     <message>
         <source>Most likely.</source>
-        <translation type="unfinished"></translation>
+        <translation>Molto probabilmente.</translation>
     </message>
     <message>
         <source>Outlook good.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prospetta bene.</translation>
     </message>
     <message>
         <source>Signs point to yes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Segnali positivi.</translation>
     </message>
     <message>
         <source>Yes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sì.</translation>
     </message>
     <message>
         <source>Reply hazy, try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Difficile rispondere, riprova.</translation>
     </message>
     <message>
         <source>Ask again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chiedi di nuovo più tardi.</translation>
     </message>
     <message>
         <source>Better not tell you now.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meglio non risponderti ora.</translation>
     </message>
     <message>
         <source>Cannot predict now.</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossibile predirlo ora.</translation>
     </message>
     <message>
         <source>Concentrate and ask again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Concentrati e chiedi di nuovo.</translation>
     </message>
     <message>
         <source>Don’t count on it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non ci contare.</translation>
     </message>
     <message>
         <source>My reply is no.</source>
-        <translation type="unfinished"></translation>
+        <translation>La mia risposta è no.</translation>
     </message>
     <message>
         <source>My sources say no.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le mie fonti dicono di no.</translation>
     </message>
     <message>
         <source>Outlook not so good.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prospetta non così bene.</translation>
     </message>
     <message>
         <source>Very doubtful.</source>
-        <translation type="unfinished"></translation>
+        <translation>Molto incerto.</translation>
     </message>
 </context>
 </TS>
