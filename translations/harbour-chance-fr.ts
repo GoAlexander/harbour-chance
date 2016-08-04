@@ -71,11 +71,11 @@
     </message>
     <message>
         <source>It is certain.</source>
-        <translation>C'est sûr.</translation>
+        <translation>C&apos;est sûr.</translation>
     </message>
     <message>
         <source>It is decidedly so.</source>
-        <translation>C'est résolument ainsi.</translation>
+        <translation>C&apos;est résolument ainsi.</translation>
     </message>
     <message>
         <source>Without a doubt.</source>
@@ -123,7 +123,7 @@
     </message>
     <message>
         <source>Cannot predict now.</source>
-        <translation>Impossible à dire pour l'instant.</translation>
+        <translation>Impossible à dire pour l&apos;instant.</translation>
     </message>
     <message>
         <source>Concentrate and ask again.</source>
@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Don’t count on it.</source>
-        <translation>N'y comptez pas.</translation>
+        <translation>N&apos;y comptez pas.</translation>
     </message>
     <message>
         <source>My reply is no.</source>
@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>Very doubtful.</source>
-        <translation>Rien n'est moins sûr.</translation>
+        <translation>Rien n&apos;est moins sûr.</translation>
     </message>
 </context>
 </TS>
