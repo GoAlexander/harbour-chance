@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>You may rely on it.</source>
-        <translation>Vous pouvez y compter</translation>
+        <translation>Vous pouvez y compter.</translation>
     </message>
     <message>
         <source>As I see it, yes.</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Most likely.</source>
-        <translation>Il y a des chances</translation>
+        <translation>Il y a des chances.</translation>
     </message>
     <message>
         <source>Outlook good.</source>
@@ -119,7 +119,7 @@
     </message>
     <message>
         <source>Better not tell you now.</source>
-        <translation>Il vaut mieux que nous ne sachiez pas pour le moment.</translation>
+        <translation>Il vaut mieux que vous ne sachiez pas pour le moment.</translation>
     </message>
     <message>
         <source>Cannot predict now.</source>
