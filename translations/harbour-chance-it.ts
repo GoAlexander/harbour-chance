@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Outlook not so good.</source>
-        <translation>Prospetta non così bene.</translation>
+        <translation>Non prospetta così bene.</translation>
     </message>
     <message>
         <source>Very doubtful.</source>
