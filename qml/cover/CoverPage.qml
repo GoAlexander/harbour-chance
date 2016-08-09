@@ -2,33 +2,48 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 CoverBackground {
+    property real number: 0
 
+    function getAnswer(number) {
+        var answers = [
+                    qsTr("It is certain."),
+                    qsTr("It is decidedly so."),
+                    qsTr("Without a doubt."),
+                    qsTr("Yes — definitely."),
+                    qsTr("You may rely on it."),
+                    qsTr("As I see it, yes."),
+                    qsTr("Most likely."),
+                    qsTr("Outlook good."),
+                    qsTr("Signs point to yes."),
+                    qsTr("Yes."),
+                    qsTr("Reply hazy, try again."),
+                    qsTr("Ask again later."),
+                    qsTr("Better not tell you now."),
+                    qsTr("Cannot predict now."),
+                    qsTr("Concentrate and ask again."),
+                    qsTr("Don’t count on it."),
+                    qsTr("My reply is no."),
+                    qsTr("My sources say no."),
+                    qsTr("Outlook not so good."),
+                    qsTr("Very doubtful.")];
 
-    function makeDecision() {
-        return Math.ceil(Math.random() *2);
-    } 
-
-    /*
-    function buttonAnswer() {
-        var answers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes — definitely.", "You may rely on it.",
-                "As I see it, yes.", "Most likely.", "Outlook good.", "Signs point to yes.", "Yes.",
-                "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.",
-                "Don’t count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
-
-        return answers [Math.ceil(Math.random() * 20)];
+        return answers[number];
     }
-    */
 
-
+    function buttonAnswer() {
+        number =  Math.ceil(Math.random() * 20);
+        return getAnswer(number);
+    }
 
     Label {
         id: label
         anchors.centerIn: parent
+        horizontalAlignment: Text.Center
+        width: parent.width
+        wrapMode: Text.WordWrap
         font.bold: true
         color: Theme.highlightColor
         text: qsTr("Chance.")
-        //EnterKey.onClicked: answer();
-        EnterKey.onClicked: buttonAnswer();
     }
 
     CoverActionList {
@@ -38,17 +53,8 @@ CoverBackground {
             iconSource: "image://theme/icon-cover-refresh"
 
             onTriggered: {
-
-                if (makeDecision() === 1) {
-                    label.text = qsTr("Yes!");
-                } else {
-                    label.text = qsTr("No!");
-                }
-
-                //label.text = buttonAnswer(); // some answers are out of cover!
+                label.text = buttonAnswer();
             }
         }
     }
 }
-
-

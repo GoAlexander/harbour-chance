@@ -47,12 +47,84 @@
         <translation>Chance.</translation>
     </message>
     <message>
-        <source>Yes!</source>
-        <translation>Sì!</translation>
+        <source>It is certain.</source>
+        <translation>È certo</translation>
     </message>
     <message>
-        <source>No!</source>
-        <translation>No!</translation>
+        <source>It is decidedly so.</source>
+        <translation>È decisamente così</translation>
+    </message>
+    <message>
+        <source>Without a doubt.</source>
+        <translation>Senza alcun dubbio</translation>
+    </message>
+    <message>
+        <source>Yes — definitely.</source>
+        <translation>Sì — decisamente.</translation>
+    </message>
+    <message>
+        <source>You may rely on it.</source>
+        <translation>Ci puoi contare.</translation>
+    </message>
+    <message>
+        <source>As I see it, yes.</source>
+        <translation>A quanto pare, sì.</translation>
+    </message>
+    <message>
+        <source>Most likely.</source>
+        <translation>Molto probabilmente.</translation>
+    </message>
+    <message>
+        <source>Outlook good.</source>
+        <translation>Prospetta bene.</translation>
+    </message>
+    <message>
+        <source>Signs point to yes.</source>
+        <translation>Segnali positivi.</translation>
+    </message>
+    <message>
+        <source>Yes.</source>
+        <translation>Sì.</translation>
+    </message>
+    <message>
+        <source>Reply hazy, try again.</source>
+        <translation>Difficile rispondere, riprova.</translation>
+    </message>
+    <message>
+        <source>Ask again later.</source>
+        <translation>Chiedi di nuovo più tardi.</translation>
+    </message>
+    <message>
+        <source>Better not tell you now.</source>
+        <translation>Meglio non risponderti ora.</translation>
+    </message>
+    <message>
+        <source>Cannot predict now.</source>
+        <translation>Impossibile predirlo ora.</translation>
+    </message>
+    <message>
+        <source>Concentrate and ask again.</source>
+        <translation>Concentrati e chiedi di nuovo.</translation>
+    </message>
+    <message>
+        <source>Don’t count on it.</source>
+        <translation>Non ci contare.</translation>
+    </message>
+    <message>
+        <source>My reply is no.</source>
+        <translation>La mia risposta è no.</translation>
+    </message>
+    <message>
+        <source>My sources say no.</source>
+        <translation>Le mie fonti dicono di no.</translation>
+    </message>
+    <message>
+        <source>Outlook not so good.</source>
+        <translation>Non prospetta così bene.</translation>
+    </message>
+    <message>
+        <source>Very doubtful.</source>
+        <translation>Molto incerto.</translation>
     </message>
 </context>
 <context>

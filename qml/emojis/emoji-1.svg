@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="450px"
+	 height="450px" viewBox="0 0 450 450" enable-background="new 0 0 450 450" xml:space="preserve">
+<g id="Sfondo_bianco" display="none">
+	<g display="inline">
+		<path fill="#FFFFFF" d="M225,401.404c106.561,0,193.254-86.699,193.254-193.268S331.56,14.868,225,14.868
+			c-106.56,0-193.253,86.7-193.253,193.269S118.44,401.404,225,401.404z"/>
+	</g>
+</g>
+<g id="Emoji_outline">
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="15.3811" d="M225,401.965c106.561,0,193.254-86.7,193.254-193.269
+			S331.56,15.429,225,15.429c-106.56,0-193.253,86.699-193.253,193.268S118.44,401.965,225,401.965z"/>
+	</g>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7892" d="M141.942,204.077"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7892" d="M172.485,204.077"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7892" d="M157.213,224.842"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="6.5919" d="M418.253,165.225"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="6.5919" d="M36.675,165.225"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7892" d="M147.538,99.3"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="8.7892" d="M224.147,165.225c0.562,3.765,0.853,7.616,0.853,11.537
+		c0,42.781-34.681,77.462-77.462,77.462s-77.463-27.015-77.463-77.462c0-4.872,11.734-10.784,20.397-11.537"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7892" d="M302.266,99.3"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7892" d="M343.667,275.479C328.463,310.931,255.286,371.304,225,335.8"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="8.7892" d="M225.853,165.225c-0.562,3.765-0.854,7.616-0.854,11.537
+		c0,42.781,34.682,77.462,77.463,77.462s77.462-30.311,77.462-77.462c0-4.872-11.734-10.784-20.396-11.537h-1.397h-67.245h-49.187
+		h-22.082h-67.834H90.472"/>
+</g>
+</svg>

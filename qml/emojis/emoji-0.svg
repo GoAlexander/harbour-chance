@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="450px"
+	 height="450px" viewBox="0 0 450 450" enable-background="new 0 0 450 450" xml:space="preserve">
+<g id="Sfondo_bianco" display="none">
+	<g display="inline">
+		<path fill="#FFFFFF" d="M165.674,388.157c0,0,0,46.973,59.326,46.973s59.326-46.973,59.326-46.973"/>
+		<g>
+			<path fill="#FFFFFF" d="M225,401.401c106.559,0,193.251-86.698,193.251-193.265c0-106.567-86.692-193.266-193.251-193.266
+				S31.749,101.569,31.749,208.137C31.749,314.703,118.441,401.401,225,401.401z"/>
+		</g>
+	</g>
+</g>
+<g id="Emoji_outline">
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7891" d="M156.006,228.9c8.42,0,15.271-9.314,15.271-20.764
+		s-6.851-20.765-15.271-20.765s-15.271,9.315-15.271,20.765S147.585,228.9,156.006,228.9z"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7891" d="M293.994,228.9c8.42,0,15.271-9.314,15.271-20.764
+		s-6.851-20.765-15.271-20.765s-15.271,9.315-15.271,20.765S285.574,228.9,293.994,228.9z"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="8.7891" stroke-linejoin="round" d="M165.674,350.624
+		c-73.654-22.38-72.562-85.065-72.562-85.065s59.115,21.984,131.732,21.984c87.342,0,131.836-21.753,131.836-21.753l0.207-0.462
+		c0,0,1.163,62.895-72.562,85.305"/>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="8.7891" d="M165.674,388.158c0,0,0,46.972,59.326,46.972
+			s59.326-46.972,59.326-46.972 M284.326,283.674v105.469 M165.674,283.674v105.469V283.674z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="15.3809" d="M284.937,391.929c79.739-25.99,133.314-99.851,133.314-183.792
+			c0-106.566-86.692-193.266-193.251-193.266S31.749,101.57,31.749,208.137c0,83.762,53.813,157.717,133.908,184.027"/>
+	</g>
+	<line fill="none" stroke="#FFFFFF" stroke-width="8.7891" x1="225" y1="289.81" x2="225" y2="324.966"/>
+</g>
+</svg>

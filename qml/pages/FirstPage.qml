@@ -2,13 +2,13 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtSensors 5.0
 
-
 Page {
     id: page
     allowedOrientations: Orientation.All
 
     property real number: 0
-    function answer() {
+
+    function getAnswer(number) {
         var answers = [
                     qsTr("It is certain."),
                     qsTr("It is decidedly so."),
@@ -31,35 +31,17 @@ Page {
                     qsTr("Outlook not so good."),
                     qsTr("Very doubtful.")];
 
+        return answers[number];
+    }
+
+    function answer() {
         number = Math.ceil(shakeSensor.random * 1000) % 20;
-        return answers [number];
+        return getAnswer(number);
     }
 
     function buttonAnswer() {
-        var answers = [
-                    qsTr("It is certain."),
-                    qsTr("It is decidedly so."),
-                    qsTr("Without a doubt."),
-                    qsTr("Yes — definitely."),
-                    qsTr("You may rely on it."),
-                    qsTr("As I see it, yes."),
-                    qsTr("Most likely."),
-                    qsTr("Outlook good."),
-                    qsTr("Signs point to yes."),
-                    qsTr("Yes."),
-                    qsTr("Reply hazy, try again."),
-                    qsTr("Ask again later."),
-                    qsTr("Better not tell you now."),
-                    qsTr("Cannot predict now."),
-                    qsTr("Concentrate and ask again."),
-                    qsTr("Don’t count on it."),
-                    qsTr("My reply is no."),
-                    qsTr("My sources say no."),
-                    qsTr("Outlook not so good."),
-                    qsTr("Very doubtful.")];
-
         number =  Math.ceil(Math.random() * 20);
-        return answers [number];
+        return getAnswer(number);
     }
 
     function getRandomInt(min, max) {
@@ -120,8 +102,6 @@ Page {
                 font.bold: true
                 wrapMode: Text.Wrap
                 font.pixelSize: Theme.fontSizeExtraLarge
-                EnterKey.onClicked: answer();
-                //EnterKey.onClicked: buttonAnswer();
             }
 
             Label {
@@ -133,11 +113,12 @@ Page {
             }
 
             Image {
-                    id: emoji
-                    source: "../emojis/emoji-" + randEmoji(number) + ".png"
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    width: parent.width
-                    height: sourceSize.height * width / sourceSize.width
+                 id: emoji
+                 source: "../emojis/emoji-" + randEmoji(number) + ".svg"
+                 anchors.horizontalCenter: parent.horizontalCenter
+                 width: parent.width
+                 height: sourceSize.height * width / sourceSize.width
+                 sourceSize: parent
             }
         }
     }
