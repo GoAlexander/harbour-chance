@@ -157,5 +157,4 @@ Page {
             shakeSensor.count = 0;
         }
     }
-
 }
