@@ -48,15 +48,15 @@
     </message>
     <message>
         <source>It is certain.</source>
-        <translation>È certo</translation>
+        <translation>È certo.</translation>
     </message>
     <message>
         <source>It is decidedly so.</source>
-        <translation>È decisamente così</translation>
+        <translation>È decisamente così.</translation>
     </message>
     <message>
         <source>Without a doubt.</source>
-        <translation>Senza alcun dubbio</translation>
+        <translation>Senza alcun dubbio.</translation>
     </message>
     <message>
         <source>Yes — definitely.</source>
@@ -143,15 +143,15 @@
     </message>
     <message>
         <source>It is certain.</source>
-        <translation>È certo</translation>
+        <translation>È certo.</translation>
     </message>
     <message>
         <source>It is decidedly so.</source>
-        <translation>È decisamente così</translation>
+        <translation>È decisamente così.</translation>
     </message>
     <message>
         <source>Without a doubt.</source>
-        <translation>Senza alcun dubbio</translation>
+        <translation>Senza alcun dubbio.</translation>
     </message>
     <message>
         <source>Yes — definitely.</source>
