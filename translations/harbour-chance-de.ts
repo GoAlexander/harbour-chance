@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>It is decidedly so.</source>
-        <translation>Es ist zweifelsohne so.</translation>
+        <translation>Es ist gewiss so.</translation>
     </message>
     <message>
         <source>Without a doubt.</source>
@@ -163,7 +163,7 @@
     </message>
     <message>
         <source>As I see it, yes.</source>
-        <translation>Wie ich es sehe, ja.</translation>
+        <translation>So wie ich das sehe, ja.</translation>
     </message>
     <message>
         <source>Most likely.</source>
@@ -171,11 +171,11 @@
     </message>
     <message>
         <source>Outlook good.</source>
-        <translation>Es sieht gut aus.</translation>
+        <translation>Gute Aussichten.</translation>
     </message>
     <message>
         <source>Signs point to yes.</source>
-        <translation>Anzeichen deuten auf ja.</translation>
+        <translation>Die Anzeichen deuten auf ja.</translation>
     </message>
     <message>
         <source>Yes.</source>
@@ -183,7 +183,7 @@
     </message>
     <message>
         <source>Reply hazy, try again.</source>
-        <translation>Es ist nicht klar, versuche es nochmal.</translation>
+        <translation>Antwort unsicher, versuche nochmal.</translation>
     </message>
     <message>
         <source>Ask again later.</source>
@@ -195,11 +195,11 @@
     </message>
     <message>
         <source>Cannot predict now.</source>
-        <translation>Jetzt kann man nicht vorhersagen.</translation>
+        <translation>Vorhersage noch nicht möglich.</translation>
     </message>
     <message>
         <source>Concentrate and ask again.</source>
-        <translation>Konzentriere dich und frage erneut.</translation>
+        <translation>Konzentriere dich und stelle die Frage erneut.</translation>
     </message>
     <message>
         <source>Don’t count on it.</source>
@@ -221,5 +221,11 @@
         <source>Very doubtful.</source>
         <translation>Sehr zweifelhaft.</translation>
     </message>
+<!-- If you need additional answers:
+<message>
+    <source>Computer says no.</source>
+    <translations>Computer sagt nein.</translations>
+</message>
+-->
 </context>
 </TS>
