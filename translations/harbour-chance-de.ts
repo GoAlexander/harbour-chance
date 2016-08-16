@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>This program evolved to 8-ball. So, &quot;Chance.&quot; answers you with classical magic ball expressions. ;)</source>
-        <translation>Das Progamm hat sich zu einem 8-ball entwickelt. &quot;Chance.&quot; antwortet jetzt mit klassischen Magic Ball ausrücken. ;)</translation>
+        <translation>Das Progamm hat sich zur Wahrsagekugel Magic 8-Ball entwickelt. &quot;Chance.&quot; antwortet jetzt mit klassischen Magic Ball ausdrücken. ;)</translation>
     </message>
     <message>
         <source>Special thanks:</source>
