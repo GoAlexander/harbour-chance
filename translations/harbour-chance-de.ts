@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>You can find the source code at the:</source>
-        <translation>Hier können Sie den Quellkode finden:</translation>
+        <translation>Den Source-Code findest du hier:</translation>
     </message>
     <message>
         <source>GitHub</source>
@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>This program evolved to 8-ball. So, &quot;Chance.&quot; answers you with classical magic ball expressions. ;)</source>
-        <translation>Dieses Programm hat ins 8-Ball evolutioniert. So, &quot;Chance.&quot; antwortet Sie mit den klassischen magic ball Ausdrücken. ;)</translation>
+        <translation>Das Progamm hat sich zur Wahrsagekugel Magic 8-Ball entwickelt. &quot;Chance.&quot; antwortet jetzt mit klassischen Magic Ball ausdrücken. ;)</translation>
     </message>
     <message>
         <source>Special thanks:</source>
@@ -33,7 +33,7 @@
     </message>
     <message>
         <source>-amilcarsantos for code of shaking</source>
-        <translation>-amilcarsantos für den Code vom Schütteln</translation>
+        <translation>-amilcarsantos für die Schüttel-Funktion</translation>
     </message>
     <message>
         <source>-Stefano (aka palikao) for italian translation and cool emojis</source>
@@ -64,23 +64,23 @@
     </message>
     <message>
         <source>You may rely on it.</source>
-        <translation>Sie können sich darauf verlassen.</translation>
+        <translation>Du kannst dich darauf verlassen.</translation>
     </message>
     <message>
         <source>As I see it, yes.</source>
-        <translation>Wie ich es sehe, ja.</translation>
+        <translation>So wie ich das sehe, ja.</translation>
     </message>
     <message>
         <source>Most likely.</source>
-        <translation>Die meisten wahrscheinlich.</translation>
+        <translation>Hölchstwahrscheinlich.</translation>
     </message>
     <message>
         <source>Outlook good.</source>
-        <translation>Es sieht gut aus.</translation>
+        <translation>Gute Aussichten.</translation>
     </message>
     <message>
         <source>Signs point to yes.</source>
-        <translation>Anzeichen deuten auf ja.</translation>
+        <translation>Die Anzeichen deuten auf ja.</translation>
     </message>
     <message>
         <source>Yes.</source>
@@ -88,31 +88,31 @@
     </message>
     <message>
         <source>Reply hazy, try again.</source>
-        <translation>Es ist nicht klar, versuchen Sie nochmal.</translation>
+        <translation>Antwort unsicher, versuche nochmal.</translation>
     </message>
     <message>
         <source>Ask again later.</source>
-        <translation>Fragen Sie später nochmal.</translation>
+        <translation>Frage später nochmal.</translation>
     </message>
     <message>
         <source>Better not tell you now.</source>
-        <translation>Jetzt ist es besser euch nicht zu antworten.</translation>
+        <translation>Besser noch nicht verraten.</translation>
     </message>
     <message>
         <source>Cannot predict now.</source>
-        <translation>Jetzt kann man nicht vorhersagen.</translation>
+        <translation>Vorhersage noch nicht möglich.</translation>
     </message>
     <message>
         <source>Concentrate and ask again.</source>
-        <translation>Konzentrieren Sie sich und fragen Sie wieder.</translation>
+        <translation>Konzentriere dich und stelle die Frage erneut.</translation>
     </message>
     <message>
         <source>Don’t count on it.</source>
-        <translation>Denken Sie nicht darüber.</translation>
+        <translation>Du solltest nicht darauf zählen.</translation>
     </message>
     <message>
         <source>My reply is no.</source>
-        <translation>Mein Antwort ist nein.</translation>
+        <translation>Meine Antwort ist nein.</translation>
     </message>
     <message>
         <source>My sources say no.</source>
@@ -131,7 +131,7 @@
     <name>FirstPage</name>
     <message>
         <source>About</source>
-        <translation>Etwa</translation>
+        <translation>Über</translation>
     </message>
     <message>
         <source>Chance.</source>
@@ -139,7 +139,7 @@
     </message>
     <message>
         <source>Click or shake!</source>
-        <translation>Klicken Sie oder schütteln!</translation>
+        <translation>Klicke oder schüttle!</translation>
     </message>
     <message>
         <source>It is certain.</source>
@@ -159,23 +159,23 @@
     </message>
     <message>
         <source>You may rely on it.</source>
-        <translation>Sie können sich darauf verlassen.</translation>
+        <translation>Du kannst dich darauf verlassen.</translation>
     </message>
     <message>
         <source>As I see it, yes.</source>
-        <translation>Wie ich es sehe, ja.</translation>
+        <translation>So wie ich das sehe, ja.</translation>
     </message>
     <message>
         <source>Most likely.</source>
-        <translation>Die meisten wahrscheinlich.</translation>
+        <translation>Höchstwahrscheinlich.</translation>
     </message>
     <message>
         <source>Outlook good.</source>
-        <translation>Es sieht gut aus.</translation>
+        <translation>Gute Aussichten.</translation>
     </message>
     <message>
         <source>Signs point to yes.</source>
-        <translation>Anzeichen deuten auf ja.</translation>
+        <translation>Die Anzeichen deuten auf ja.</translation>
     </message>
     <message>
         <source>Yes.</source>
@@ -183,31 +183,31 @@
     </message>
     <message>
         <source>Reply hazy, try again.</source>
-        <translation>Es ist nicht klar, versuchen Sie nochmal.</translation>
+        <translation>Antwort unsicher, versuche nochmal.</translation>
     </message>
     <message>
         <source>Ask again later.</source>
-        <translation>Fragen Sie später nochmal.</translation>
+        <translation>Frage später nochmal.</translation>
     </message>
     <message>
         <source>Better not tell you now.</source>
-        <translation>Jetzt ist es besser euch nicht zu antworten.</translation>
+        <translation>Es ist besser noch nicht zu antworten.</translation>
     </message>
     <message>
         <source>Cannot predict now.</source>
-        <translation>Jetzt kann man nicht vorhersagen.</translation>
+        <translation>Vorhersage noch nicht möglich.</translation>
     </message>
     <message>
         <source>Concentrate and ask again.</source>
-        <translation>Konzentrieren Sie sich und fragen Sie wieder.</translation>
+        <translation>Konzentriere dich und stelle die Frage erneut.</translation>
     </message>
     <message>
         <source>Don’t count on it.</source>
-        <translation>Denken Sie nicht darüber.</translation>
+        <translation>Du solltest nicht darauf zählen.</translation>
     </message>
     <message>
         <source>My reply is no.</source>
-        <translation>Mein Antwort ist nein.</translation>
+        <translation>Meine Antwort ist nein.</translation>
     </message>
     <message>
         <source>My sources say no.</source>
@@ -221,5 +221,11 @@
         <source>Very doubtful.</source>
         <translation>Sehr zweifelhaft.</translation>
     </message>
+<!-- If you need additional answers:
+<message>
+    <source>Computer says no.</source>
+    <translations>Computer sagt nein.</translations>
+</message>
+-->
 </context>
 </TS>
