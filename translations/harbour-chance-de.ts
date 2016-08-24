@@ -72,7 +72,7 @@
     </message>
     <message>
         <source>Most likely.</source>
-        <translation>Hölchstwahrscheinlich.</translation>
+        <translation>Höchstwahrscheinlich.</translation>
     </message>
     <message>
         <source>Outlook good.</source>
