@@ -39,6 +39,10 @@
         <source>-Stefano (aka palikao) for italian translation and cool emojis</source>
         <translation>-Stefano (aka palikao) pour la version italienne et les emojis simpas</translation>
     </message>
+    <message>
+        <source>-ladidadida for update of german translation</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>

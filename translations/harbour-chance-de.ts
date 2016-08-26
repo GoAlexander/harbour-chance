@@ -39,6 +39,10 @@
         <source>-Stefano (aka palikao) for italian translation and cool emojis</source>
         <translation>-Stefano (aka palikao) für die italienische Übersetzung und wunderbare Emojis</translation>
     </message>
+    <message>
+        <source>-ladidadida for update of german translation</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
@@ -221,11 +225,5 @@
         <source>Very doubtful.</source>
         <translation>Sehr zweifelhaft.</translation>
     </message>
-<!-- If you need additional answers:
-<message>
-    <source>Computer says no.</source>
-    <translations>Computer sagt nein.</translations>
-</message>
--->
 </context>
 </TS>
