@@ -34,7 +34,8 @@ Page {
                 "<br/><br/>" + qsTr("Special thanks:") +
                 "<br/>" + qsTr("-Quent-in for french translation") +
                 "<br/>" + qsTr("-Stefano (aka palikao) for italian translation and cool emojis") +
-                "<br/>" + qsTr("-amilcarsantos for code of shaking");
+                "<br/>" + qsTr("-amilcarsantos for code of shaking") +
+                "<br/>" + qsTr("-ladidadida for update of german translation");
 
             onLinkActivated:
             {
